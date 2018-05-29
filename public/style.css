@@ -1,0 +1,57 @@
+.jumbotron {
+    background-image: url('./images/radiate.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    border-bottom: 3px solid #ffffff;
+}
+
+img {
+    width: 100%;
+}
+
+#good-vibes {
+    font-family: 'Allura', cursive;
+    text-align: center;
+    color: #ffffff;
+}
+
+body {
+    background-color: rgb(241, 162, 71);
+}
+
+#wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+#articles {
+    display: inline-block;
+    overflow: auto;
+    width: 60%;
+    height: 700px;
+}
+
+#notes {
+    float: right;
+    width: 30%;
+}
+
+textarea,
+input {
+    display: block;
+    width: 100%;
+    background-color: #FCF5C7;
+}
+
+input {
+    height: 36px;
+    font-size: 24px;
+}
+
+textarea {
+    height: 200px;
+    font-size: 18px;
+}
